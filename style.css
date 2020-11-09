@@ -1,6 +1,6 @@
 body
 {
-    background-color: #111;
+    background-color: royalblue;
 }
   
 canvas
@@ -14,7 +14,16 @@ canvas
 
 .logo
 {
-    margin: 2%;
+    color:whitesmoke;
+    margin-top: 10px;
+    margin-left: 10px ;
+	margin-right: 10px;
+    text-align: center;
+}
+
+#container
+{
+    height: 100%;
 }
 
 .tytul
@@ -27,6 +36,15 @@ canvas
 	text-align: center;
 }
 
+.przemieszczanie
+{
+    font-size: 50px;
+    color:whitesmoke;
+    font-family: 'candy_cane_unregisteredRg';
+    text-decoration: none;
+    margin: 15px;
+}
+
 .Produkty
 {
     width: 60%;
@@ -34,4 +52,5 @@ canvas
     background-color: whitesmoke;
     margin: auto;
     border-radius: 50px;
+    margin-top: 25px;
 }
